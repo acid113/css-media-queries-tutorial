@@ -161,3 +161,19 @@ img {
   }
 }
 /* Task 2 (end) */
+
+/* Task 3 (start) */
+/* only need to override properties for <body> & <nav> tags */
+
+@media (orientation: portrait) {
+  body {
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: none;
+  }
+  nav {
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #dbdce1;
+  }
+}
+/* Task 3 (end) */
